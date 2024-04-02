@@ -1,10 +1,12 @@
-import DemoComponent from "./DemoComponent";
+// import DemoComponent from "./DemoComponent";
+import Home from "./pages/home/Home"
 
 
 function App() {
   return (
     <div>
-   <DemoComponent />
+   {/* <DemoComponent /> */}
+   <Home />
     </div>
   );
 }
