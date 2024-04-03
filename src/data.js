@@ -14,9 +14,17 @@ import Curious from "./assets/interstedIn/Curious-bro.png";
 import Next from "./assets/interstedIn/Next-steps-pana.png";
 import Shared from "./assets/interstedIn/Shared-goals-amico.png";
 
+// math 
+
+import arithmetic from './assets/math/arithmetic.png'
+import basicAlz from './assets/math/basicAlz.png'
+import calculus from './assets/math/calculus.png'
+import interAlz from './assets/math/interAlz.png'
 
 
+// result 
 
+import thinking from "./assets/thinking.png"
 
 
 
@@ -24,53 +32,105 @@ import Shared from "./assets/interstedIn/Shared-goals-amico.png";
 const describesBest = [
     {
         img:  Grades,
-        text: "Student or soon to be enrolled"
+        text: "Student",
+        des: "or soon to be enrolled"
     },
     {
         img: Accountant,
-        text: "Professional pursuing a career"
+        text: "Professional ",
+        des: "pursuing a career"
     },
     {
         img: parents,
-        text: "Parent of a school-age child"
+        text: "Parent",
+        des: " of a school-age child"
     },
     {
         img: Grandma,
-        text: "Lifelong learner"
+        text: "Lifelong learner",
+        des: ""
     },
     {
         img: professor,
-        text: "Teacher"
+        text: "Teacher",
+        des: ""
     },
     {
         img: Question,
-        text: "Other"
+        text: "Other",
+        des: ""
     },
 ]
 const interestedIn = [
     {
-        img: Around,
+        img: Next,
         text: "Learning specific skills to advance my career"
     },
     {
-        img: Calculator,
+        img:  Around,
         text: "Explore new topics i'm interested in"
     },
     {
-        img: Curious,
+        img: Calculator,
         text: "Refresing my math foundations"
     },
     {
-        img: Next,
+        img: Shared,
         text: "Exercising my brain to stay sharp"
     },
     {
-        img: Shared,
+        img: Curious,
         text: "Somthing else"
+    },
+]
+
+const math = [
+    {
+        img: arithmetic,
+        head: "Arithmetic",
+        foot: "Introductory"
+    },
+    {
+        img: basicAlz,
+        head: "Basic Alzebra",
+        foot: "Foundational"
+    },
+    {
+        img: interAlz,
+        head: "Intermediat Alzebra",
+        foot: "Intermediat"
+    },
+    {
+        img: calculus,
+        head: "Calculus",
+        foot: "Advanced"
+    },
+]
+
+const result = [
+    {
+        img: thinking,
+        head: "Foundational Math",
+        dis: "Built your foundational skills in algebra, geometri, and probability.",
+        popular: true
+    },
+    {
+        img: thinking,
+        head: "Mathematical Thinking",
+        dis: "Built your foundational skills in algebra, geometri, and probability.",
+        popular: true
+    },
+    {
+        img: thinking,
+        head: "Mathematical Mind",
+        dis: "Mastering algebraic manipulation techniques empowers students to simplify expressions.",
+        popular: false
     },
 ]
 
 export {
     describesBest,
-    interestedIn
+    interestedIn,
+    math,
+    result
 }
